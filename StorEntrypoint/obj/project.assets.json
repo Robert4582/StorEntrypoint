@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\StorEntrypoint.csproj",
+      "projectUniqueName": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\StorEntrypoint\\StorEntrypoint.csproj",
       "projectName": "StorEntrypoint",
-      "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\StorEntrypoint.csproj",
+      "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\StorEntrypoint\\StorEntrypoint.csproj",
       "packagesPath": "C:\\Users\\Robert-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\obj\\",
+      "outputPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\StorEntrypoint\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -4930,8 +4930,8 @@
     },
     "StorEntrypoint/1.0.0": {
       "type": "project",
-      "path": "../StorEntrypoint.csproj",
-      "msbuildProject": "../StorEntrypoint.csproj"
+      "path": "../StorEntrypoint/StorEntrypoint.csproj",
+      "msbuildProject": "../StorEntrypoint/StorEntrypoint.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4979,6 +4979,9 @@
           "projectReferences": {
             "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\StorEntrypoint.csproj": {
               "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\StorEntrypoint.csproj"
+            },
+            "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\StorEntrypoint\\StorEntrypoint.csproj": {
+              "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\StorEntrypoint\\StorEntrypoint.csproj"
             }
           }
         }
