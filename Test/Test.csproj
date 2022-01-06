@@ -14,7 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StorEntrypoint.csproj" />
     <ProjectReference Include="..\StorEntrypoint\StorEntrypoint.csproj" />
   </ItemGroup>
 
