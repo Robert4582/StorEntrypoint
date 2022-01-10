@@ -48,13 +48,14 @@ namespace StorEntrypoint
             {
                 try
                 {
-                    NetworkFile data = null;
+                    NetworkFile<string[]> data = null;
 
                     ReadOnlyMemory<byte> request = memory.Memory.Slice(0, client.Receive(memory.Memory.Span));
-                    data = Json.DeserializeFromMemory<NetworkFile>(request);
+                    data = Json.DeserializeFromMemory<NetworkFile<string[]>>(request);
                     Console.WriteLine("Received data for: {0}", data.Service);
 
-                    var response = queue.SendAsRpc<NetworkFile, NetworkFile>(data);
+                    var response = queue.SendAsRpc<NetworkFile<string[]>, NetworkFile<string[]>>(data);
+                    Console.WriteLine($"{response.Info.ToString()}");
                     client.Send(Json.SerializeToBytes(response));
                 }
                 catch (Exception)
@@ -62,6 +63,7 @@ namespace StorEntrypoint
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("ERROR OCCURED");
                     Console.ForegroundColor = ConsoleColor.White;
+                    client.Close();
                 }
             }
         }

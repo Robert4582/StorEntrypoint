@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "91a019fb-875d-4ad5-95c5-2ba33c2ffde9": {
+      "ProjectGuid": "91a019fb-875d-4ad5-95c5-2ba33c2ffde9",
+      "DisplayName": "StorEntrypoint",
+      "ColorIndex": 0
+    },
+    "42ad323a-65b4-460b-865d-b93f35e3300f": {
+      "ProjectGuid": "42ad323a-65b4-460b-865d-b93f35e3300f",
+      "DisplayName": "Test",
+      "ColorIndex": 1
+    },
+    "34a25750-c5c6-44ea-ad59-03e02859d206": {
+      "ProjectGuid": "34a25750-c5c6-44ea-ad59-03e02859d206",
+      "DisplayName": "Prototype",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}
