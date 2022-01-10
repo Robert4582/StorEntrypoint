@@ -5068,25 +5068,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Robert-PC\\.nuget\\packages\\": {},
+    "C:\\Users\\kasp494b\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorEntrypoint\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\Test\\Test.csproj",
-      "packagesPath": "C:\\Users\\Robert-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\Test\\obj\\",
+      "projectPath": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorEntrypoint\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\kasp494b\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorEntrypoint\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Robert-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kasp494b\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5095,14 +5095,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://gitlab.com/api/v4/projects/21192147/packages/nuget/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\StorEntrypoint\\StorEntrypoint.csproj": {
-              "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\StorEntrypoint\\StorEntrypoint.csproj"
+            "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorEntrypoint\\StorEntrypoint\\StorEntrypoint.csproj": {
+              "projectPath": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorEntrypoint\\StorEntrypoint\\StorEntrypoint.csproj"
             }
           }
         }
@@ -5149,7 +5150,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
