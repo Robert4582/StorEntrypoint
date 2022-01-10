@@ -11,11 +11,11 @@ namespace StorEntrypoint
 {
     class Program
     {
-        static MessageQueue queue = new MessageQueue();
+        static MessageQueue reciever = new MessageQueue();
         static void Main(string[] args)
         {
-            queue.CreateExchange(RabbitMQExchangeTypes.Direct, "stor");
-            queue.BindServices("stor", Services.Create, Services.Login, Services.Patch, Services.Response, Services.GroupMessage, Services.GlobalMessage, Services.PrivateMessage);
+            reciever.CreateExchange(RabbitMQExchangeTypes.Direct, "stor");
+            reciever.BindServices("stor");
 
             try
             {
@@ -54,7 +54,7 @@ namespace StorEntrypoint
                     data = Json.DeserializeFromMemory<NetworkFile<string[]>>(request);
                     Console.WriteLine("Received data for: {0}", data.Service);
 
-                    var response = queue.SendAsRpc<NetworkFile<string[]>, NetworkFile<string[]>>(data);
+                    var response = reciever.SendAsRpc<NetworkFile<string[]>, NetworkFile<string[]>>(data);
                     Console.WriteLine($"{response.Info.ToString()}");
                     client.Send(Json.SerializeToBytes(response));
                 }
