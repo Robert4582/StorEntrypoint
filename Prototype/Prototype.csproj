@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="StorCommon" Version="1.1.2" />
+    <PackageReference Include="StorCommon" Version="1.1.6" />
   </ItemGroup>
 
 </Project>
