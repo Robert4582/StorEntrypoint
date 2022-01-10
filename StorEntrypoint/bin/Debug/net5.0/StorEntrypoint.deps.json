@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "StorEntrypoint/1.0.0": {
         "dependencies": {
-          "StorCommon": "1.1.2"
+          "StorCommon": "1.1.6"
         },
         "runtime": {
           "StorEntrypoint.dll": {}
@@ -26,14 +26,14 @@
           }
         }
       },
-      "StorCommon/1.1.2": {
+      "StorCommon/1.1.6": {
         "dependencies": {
           "RabbitMQ.Client": "6.2.2"
         },
         "runtime": {
           "lib/net5.0/StorCommon.dll": {
-            "assemblyVersion": "1.1.2.0",
-            "fileVersion": "1.1.2.0"
+            "assemblyVersion": "1.1.6.0",
+            "fileVersion": "1.1.6.0"
           }
         }
       },
@@ -54,12 +54,12 @@
       "path": "rabbitmq.client/6.2.2",
       "hashPath": "rabbitmq.client.6.2.2.nupkg.sha512"
     },
-    "StorCommon/1.1.2": {
+    "StorCommon/1.1.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lgCW90iP3nQs6Z6SVWASsO3/ZQZ7qolUFF+F4uxbPb8HFPL/9hZk8kcIR06m33KYWImSIK0kRKAbQ556UWSAiw==",
-      "path": "storcommon/1.1.2",
-      "hashPath": "storcommon.1.1.2.nupkg.sha512"
+      "sha512": "sha512-Z8DJx3otrpiknCKPN17pq8hRc/z5MLzGlWBNTxM1RzekNel3NBLbNrhuslwZBln+ik5Im+FUdvb5HZRweKxUXg==",
+      "path": "storcommon/1.1.6",
+      "hashPath": "storcommon.1.1.6.nupkg.sha512"
     },
     "System.Memory/4.5.4": {
       "type": "package",

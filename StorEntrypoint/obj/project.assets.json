@@ -15,7 +15,7 @@
           "lib/netstandard2.0/RabbitMQ.Client.dll": {}
         }
       },
-      "StorCommon/1.1.2": {
+      "StorCommon/1.1.6": {
         "type": "package",
         "dependencies": {
           "RabbitMQ.Client": "6.2.2"
@@ -67,15 +67,15 @@
         "rabbitmq.client.nuspec"
       ]
     },
-    "StorCommon/1.1.2": {
-      "sha512": "lgCW90iP3nQs6Z6SVWASsO3/ZQZ7qolUFF+F4uxbPb8HFPL/9hZk8kcIR06m33KYWImSIK0kRKAbQ556UWSAiw==",
+    "StorCommon/1.1.6": {
+      "sha512": "Z8DJx3otrpiknCKPN17pq8hRc/z5MLzGlWBNTxM1RzekNel3NBLbNrhuslwZBln+ik5Im+FUdvb5HZRweKxUXg==",
       "type": "package",
-      "path": "storcommon/1.1.2",
+      "path": "storcommon/1.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net5.0/StorCommon.dll",
-        "storcommon.1.1.2.nupkg.sha512",
+        "storcommon.1.1.6.nupkg.sha512",
         "storcommon.nuspec"
       ]
     },
@@ -129,29 +129,29 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "StorCommon >= 1.1.2"
+      "StorCommon >= 1.1.6"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kasp494b\\.nuget\\packages\\": {},
+    "C:\\Users\\Robert-PC\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorEntrypoint\\StorEntrypoint\\StorEntrypoint.csproj",
+      "projectUniqueName": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\StorEntrypoint\\StorEntrypoint.csproj",
       "projectName": "StorEntrypoint",
-      "projectPath": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorEntrypoint\\StorEntrypoint\\StorEntrypoint.csproj",
-      "packagesPath": "C:\\Users\\kasp494b\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorEntrypoint\\StorEntrypoint\\obj\\",
+      "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\StorEntrypoint\\StorEntrypoint.csproj",
+      "packagesPath": "C:\\Users\\Robert-PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\StorEntrypoint\\StorEntrypoint\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kasp494b\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Robert-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -160,8 +160,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://gitlab.com/api/v4/projects/21192147/packages/nuget/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -181,7 +180,7 @@
         "dependencies": {
           "StorCommon": {
             "target": "Package",
-            "version": "[1.1.2, )"
+            "version": "[1.1.6, )"
           }
         },
         "imports": [
@@ -197,7 +196,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.13, 5.0.13]"
+            "version": "[5.0.12, 5.0.12]"
           }
         ],
         "frameworkReferences": {
@@ -205,7 +204,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
